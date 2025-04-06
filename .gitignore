@@ -1,1 +1,75 @@
+# Node modules
 node_modules/
+**/node_modules/
+
+# Build outputs
+dist/
+build/
+.next/
+out/
+.expo/
+.expo-shared/
+web-build/
+*.log
+
+# Environment files
+.env
+.env.*
+.env.local
+.env.development
+.env.production
+.env.test
+
+# IDE files
+.vscode/
+.idea/
+.DS_Store
+
+# OS-generated
+Thumbs.db
+ehthumbs.db
+Icon?
+.Spotlight-V100
+.Trashes
+
+# Expo specific
+*.expo
+.expo/
+.expo-shared/
+*.turtle
+*.jks
+
+# React Native
+android/
+ios/
+*.xcworkspace
+*.xcodeproj
+*.pbxproj
+*.keystore
+*.hmap
+*.pot
+*.modulemap
+
+# Yarn/PNPM
+.pnpm-debug.log
+.yarn-debug.log
+.yarn-error.log
+.yarn/
+
+# Git
+*.orig
+*.patch
+
+# Turbo cache
+turbo/
+.cache/
+
+# Misc
+coverage/
+.nyc_output/
+tmp/
+temp/
+
+# Lint & formatting
+.eslintcache
+.prettiercache
